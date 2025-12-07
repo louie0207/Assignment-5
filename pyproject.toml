@@ -1,0 +1,22 @@
+[project]
+name = "assignment5"
+version = "0.1.0"
+description = "Applied Generative AI Assignment 5 - Post-training an LLM"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.30.0",
+    "torch",
+    "transformers>=4.40.0",
+    "datasets>=2.19.0",
+    "accelerate>=0.30.0",
+    "numpy>=1.26.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "ruff",
+    "black",
+]

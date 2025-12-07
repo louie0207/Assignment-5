@@ -1,0 +1,38 @@
+# Python
+.venv*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Git
+.git/
+
+# HF cache
+.cache/
+
+# Keep TA image clean of fine-tuned LLMs
+models/gpt2_squad_sft/
+models/gpt2_squad_rl/
+
+# (Optional) only ignore this if your RNN endpoint has fallback
+# models/rnn_lm.pt
+
+# Other artifacts
+checkpoints/
+outputs/
+data/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Misc
+uv.lock
+*.log

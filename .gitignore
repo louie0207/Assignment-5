@@ -1,0 +1,24 @@
+# Python / venv
+.venv*
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Model artifacts
+models/gpt2_squad_sft/
+models/gpt2_squad_rl/
+*.pt
+
+# Logs
+*.log
+
+# Data
+uv.lock
+*.egg-info/
+dist/
+build/
+.cache/
